@@ -27,6 +27,7 @@
 
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -183,10 +184,10 @@
                                 <a href="#" class="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s">Download
                                     CV</a>
                                 <ul class="ul-reset social-icons wow fadeInLeft" data-wow-delay="1.6s">
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://x.com/GopalSakhwala03" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa-light fa-basketball"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/gopalsakhwala/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://github.com/gopal031119" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -304,7 +305,7 @@
         <!-- start: Service Popup -->
         <div id="service-wrapper-java" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/services/modal-img.jpg" alt="">
+                <img src="./assets/img/services/modal-img.png" alt="">
             </div>
         
             <div class="popup_modal_content">
@@ -383,7 +384,7 @@
                                         <h3 class="title">Get in Touch</h3>
                                     </div>
         
-                                    <form action="index.html">
+                                    <form class="contact-form">
                                         <div class="form_group">
                                             <input type="text" name="name" id="name" placeholder="Name"
                                                 autocomplete="off">
@@ -399,6 +400,10 @@
                                         <div class="form_btn">
                                             <button class="btn tj-btn-primary" type="submit">Send Message</button>
                                         </div>
+
+                                        <div class="confirmation-btn form_btn" style="display: none; margin-top: 20px; ">
+                                            <button type="button" class="btn btn-success">Message Sent Successfully!</button>
+                                        </div>
                                     </form>
                                 </div>
                             </div>
@@ -413,7 +418,7 @@
         <!-- start -->
         <div id="service-wrapper-sap" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/services/modal-img.jpg" alt="">
+                <img src="./assets/img/services/modal-img.png" alt="">
             </div>
         
             <div class="popup_modal_content">
@@ -493,7 +498,7 @@
                                         <h3 class="title">Get in Touch</h3>
                                     </div>
         
-                                    <form action="index.html">
+                                    <form class="contact-form">
                                         <div class="form_group">
                                             <input type="text" name="name" id="name" placeholder="Name"
                                                 autocomplete="off">
@@ -508,6 +513,10 @@
                                         </div>
                                         <div class="form_btn">
                                             <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                        </div>
+
+                                        <div class="confirmation-btn form_btn" style="display: none; margin-top: 20px; ">
+                                            <button type="button" class="btn btn-success">Message Sent Successfully!</button>
                                         </div>
                                     </form>
                                 </div>
@@ -524,7 +533,7 @@
 
         <div id="service-wrapper-brand" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/services/modal-img.jpg" alt="">
+                <img src="./assets/img/services/modal-img.png" alt="">
             </div>
         
             <div class="popup_modal_content">
@@ -604,7 +613,7 @@
                                         <h3 class="title">Get in Touch</h3>
                                     </div>
         
-                                    <form action="index.html">
+                                    <form class="contact-form">
                                         <div class="form_group">
                                             <input type="text" name="name" id="name" placeholder="Name"
                                                 autocomplete="off">
@@ -619,6 +628,10 @@
                                         </div>
                                         <div class="form_btn">
                                             <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                        </div>
+
+                                        <div class="confirmation-btn form_btn" style="display: none; margin-top: 20px; ">
+                                            <button type="button" class="btn btn-success">Message Sent Successfully!</button>
                                         </div>
                                     </form>
                                 </div>
@@ -635,7 +648,7 @@
 
         <div id="service-wrapper-uiux" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/services/modal-img.jpg" alt="">
+                <img src="./assets/img/services/modal-img.png" alt="">
             </div>
         
             <div class="popup_modal_content">
@@ -715,7 +728,7 @@
                                         <h3 class="title">Get in Touch</h3>
                                     </div>
         
-                                    <form action="index.html">
+                                    <form class="contact-form">
                                         <div class="form_group">
                                             <input type="text" name="name" id="name" placeholder="Name"
                                                 autocomplete="off">
@@ -730,6 +743,10 @@
                                         </div>
                                         <div class="form_btn">
                                             <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                        </div>
+
+                                        <div class="confirmation-btn form_btn" style="display: none; margin-top: 20px; ">
+                                            <button type="button" class="btn btn-success">Message Sent Successfully!</button>
                                         </div>
                                     </form>
                                 </div>
@@ -1595,38 +1612,29 @@
                         <div class="resume-widget">
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".4s">
                                 <div class="time">
-                                    2022 - Present
+                                    2024 - Present
                                 </div>
-                                <h3 class="resume-title">Lead Developer</h3>
+                                <h3 class="resume-title">Senior Software Developer</h3>
                                 <div class="institute">
-                                    Blockdots, London
+                                    <b>EClicalWorks, Gujarat</b>
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".5s">
                                 <div class="time">
-                                    2021 - 2022
+                                    2021 - 2024
                                 </div>
-                                <h3 class="resume-title">Full Stack Web Developer</h3>
+                                <h3 class="resume-title">Software Developer</h3>
                                 <div class="institute">
-                                    Parsons, The New School
+                                   <b> Einfochips - An Arrow Company, Gujarat</b>
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".6s">
                                 <div class="time">
-                                    2020 - 2021
+                                    2019 - 2020
                                 </div>
-                                <h3 class="resume-title">UI Designer</h3>
+                                <h3 class="resume-title">Intern - Full Stack Developer</h3>
                                 <div class="institute">
-                                    House of Life, Leeds
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInLeft" data-wow-delay=".7s">
-                                <div class="time">
-                                    2018 - 2020
-                                </div>
-                                <h3 class="resume-title">Junior Graphics Designer</h3>
-                                <div class="institute">
-                                    Theme Junction, Bursa
+                                    <b>Adbiz Directory, Gujarat</b>
                                 </div>
                             </div>
                         </div>
@@ -1642,36 +1650,13 @@
                                 <div class="time">
                                     2020 - 2023
                                 </div>
-                                <h3 class="resume-title">Programming course</h3>
+                                <h3 class="resume-title">Bachelor of Technology (B.Tech)</h3>
                                 <div class="institute">
-                                    Harverd University
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInRight" data-wow-delay=".6s">
-                                <div class="time">
-                                    2016 - 2020
-                                </div>
-                                <h3 class="resume-title">Graphic design course</h3>
-                                <div class="institute">
-                                    University of Denmark
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInRight" data-wow-delay=".7s">
-                                <div class="time">
-                                    2012 - 2015
-                                </div>
-                                <h3 class="resume-title">Web design course</h3>
-                                <div class="institute">
-                                    University of California
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInRight" data-wow-delay=".8s">
-                                <div class="time">
-                                    2010 - 2011
-                                </div>
-                                <h3 class="resume-title">Design & Technology</h3>
-                                <div class="institute">
-                                    Parsons, The New School
+                                    <b>Birla Vishvakarma Mahavidyalaya, Anand</b>
+                                    <ul>
+                                        <li>CGPA - 8.39/10.00</li>
+                                        <li>Aug 2017 - Jul 2021</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -1814,10 +1799,9 @@
                                             </defs>
                                         </svg>
                                     </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Brandon Fraser</h4>
-                                    <span class="designation">Senior Software Dev, Cosmic Sport</span>
+                                    <p class="quote">“I highly recommend Gopal, an accomplished and dedicated software engineer with a robust foundation in Java development. His expertise spans Spring Boot, SAP Hybris/Commerce Cloud, and Microservices, making him a versatile and invaluable team member. Gopal has consistently optimized processes and improved project performance through his technical skills, commitment to continuous learning, strong work ethic, and collaborative spirit. His deep understanding of complex systems ensures he delivers high-quality work. Gopal is a key asset to any organization and will undoubtedly continue to excel and bring significant value wherever he goes.</p>
+                                    <h4 class="name">Rajat Singh</h4>
+                                    <span class="designation">Lead Developer at Arrow Electronics</span>
                                 </div>
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
@@ -1858,10 +1842,9 @@
                                             </defs>
                                         </svg>
                                     </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Tim Bailey</h4>
-                                    <span class="designation">SEO Specialist, Theme Junction</span>
+                                    <p class="quote">“As a co-worker, Gopal has consistently demonstrated a strong commitment to excellence. one of the things that have stood out to me about Gopal is the ability to think strategically and come up with creative solutions to complex problems. in addition to his technical skills, Gopal is a team player willing to lend a hand and go above and beyond to help his colleagues. he is well versed in cross functional collaborations as well. working with Gopal has been utmost pleasure for me as well as the team.</p>
+                                    <h4 class="name">Roma Mitra Patel</h4>
+                                    <span class="designation">Technical Lead at Einfochips - An Arrow Company</span>
                                 </div>
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
@@ -1902,54 +1885,11 @@
                                             </defs>
                                         </svg>
                                     </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Brandon Fraser</h4>
-                                    <span class="designation">Senior Software Dev, Cosmic Sport</span>
-                                </div>
-                                <div class="testimonial-item">
-                                    <div class="top-area d-flex flex-wrap justify-content-between">
-                                        <div class="logo-box">
-                                            <img src="assets/img/testimonials/logo/2.png" alt="">
-                                        </div>
-                                        <div class="image-box">
-                                            <img src="assets/img/testimonials/user/2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="icon-box">
-                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                                fill="url(#paint0_linear_263_514)" />
-                                            <defs>
-                                                <linearGradient id="paint0_linear_263_514" x1="-0.0363755"
-                                                    y1="-0.0729998" x2="35.3333" y2="-0.0729991"
-                                                    gradientUnits="userSpaceOnUse">
-                                                    <stop offset="1" stop-color="var(--tj-theme-primary)" />
-                                                    <stop offset="1" stop-color="#140C1C" stop-opacity="0" />
-                                                </linearGradient>
-                                            </defs>
-                                        </svg>
-                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                                fill="url(#paint0_linear_263_515)" />
-                                            <defs>
-                                                <linearGradient id="paint0_linear_263_515" x1="-0.0363755"
-                                                    y1="-0.0729998" x2="35.3333" y2="-0.0729991"
-                                                    gradientUnits="userSpaceOnUse">
-                                                    <stop offset="1" stop-color="var(--tj-theme-primary)" />
-                                                    <stop offset="1" stop-color="#140C1C" stop-opacity="0" />
-                                                </linearGradient>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Tim Bailey</h4>
-                                    <span class="designation">SEO Specialist, Theme Junction</span>
+                                    <p class="quote">“I wanted to take a moment to recognize the outstanding work you've been doing at Einfochips. Your dedication, innovative ideas, and consistent excellence have not only contributed significantly to our team’s success but have also inspired many of us.
+                                        It's a pleasure to work alongside someone as talented and driven as you. Keep up the fantastic work!
+                                        You are an valuable asset to any development team. </p>
+                                    <h4 class="name">Shubham Pal</h4>
+                                    <span class="designation">Senior Software Developer at Einfochips - An Arrow Company<span>
                                 </div>
                             </div>
                         </div>
@@ -1958,84 +1898,6 @@
             </div>
         </section>
         <!-- TESTIMONIAL SECTION END -->
-
-        <!-- BLOG SECTION STAR -->
-        <section class="blog-section" id="blog-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-header text-center">
-                            <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">Recent Blogs</h2>
-                            <p class=" wow fadeInUp" data-wow-delay=".4s">We put your ideas and thus your wishes in the
-                                form of a unique web project that inspires
-                                you
-                                and you customers.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay=".5s">
-                            <div class="blog-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/blog/1.jpg" alt="">
-                                </a>
-                                <a href="#" class="category">Tutorial</a>
-                            </div>
-
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul class="ul-reset">
-                                        <li><i class="fa-light fa-calendar-days"></i> Oct 01, 2022</li>
-                                        <li><i class="fa-light fa-comments"></i> <a href="#">Comment (0)</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-details.html">top 10 ui ux designers</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay=".6s">
-                            <div class="blog-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/blog/2.jpg" alt="">
-                                </a>
-                                <a href="#" class="category">TIPS</a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul class="ul-reset">
-                                        <li><i class="fa-light fa-calendar-days"></i> Nov 01, 2022</li>
-                                        <li><i class="fa-light fa-comments"></i> <a href="#">Comment (0)</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-details.html">App Development Guides</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay=".7s">
-                            <div class="blog-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/blog/3.jpg" alt="">
-                                </a>
-                                <a href="#" class="category">FREEBIES</a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul class="ul-reset">
-                                        <li><i class="fa-light fa-calendar-days"></i> Dec 01, 2022</li>
-                                        <li><i class="fa-light fa-comments"></i> <a href="#">Comment (0)</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-details.html">learn graphic design free</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- BLOG SECTION END -->
 
         <!-- CONTACT SECTION START -->
         <section class="contact-section" id="contact-section">
@@ -2107,7 +1969,7 @@
                     <div class="col-lg-5 offset-lg-1 col-md-5  d-flex flex-wrap align-items-center  order-1 order-md-2">
                         <div class="contact-info-list">
                             <ul class="ul-reset">
-                                <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
+                                <!-- <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
                                     data-wow-delay=".4s">
                                     <div class="icon-box">
                                         <i class="flaticon-phone-call"></i>
@@ -2116,7 +1978,7 @@
                                         <p>Phone</p>
                                         <a href="tel:0123456789">+01 123 654 8096</a>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
                                     data-wow-delay=".5s">
                                     <div class="icon-box">
@@ -2124,7 +1986,7 @@
                                     </div>
                                     <div class="text-box">
                                         <p>Email</p>
-                                        <a href="mailto:mail@mail.com">gerolddesign@mail.com</a>
+                                        <a href="mailto:gopalsakhwala18@gmail.com">gopalsakhwala18@gmail.com</a>
                                     </div>
                                 </li>
                                 <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -2134,7 +1996,7 @@
                                     </div>
                                     <div class="text-box">
                                         <p>Address</p>
-                                        <a href="#">Warne Park Street Pine, <br>FL 33157, New York</a>
+                                        <a href="#">Ahmedabad, <br>Gujarat, India</a>
                                     </div>
                                 </li>
                             </ul>
@@ -2193,6 +2055,39 @@
     <script src="assets/js/magnific-popup.js"></script>
 
     <script src="assets/js/main.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init('njMNdevQssS2rQY3E'); // Replace with your actual user ID from EmailJS
+        })();
+    
+        // Select all forms with the class 'contact-form'
+        const forms = document.querySelectorAll('.contact-form');
+    
+        // Loop through each form
+        forms.forEach(function(form) {
+            const confirmationBtn = form.querySelector('.confirmation-btn');  // Get the confirmation button specific to this form
+    
+            // Add submit event listener to each form
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();  // Prevent default form submission
+    
+                // Send email using EmailJS
+                emailjs.sendForm('service_uklpljo', 'template_kfoo0as', form)
+                .then(function(response) {
+                    console.log('Success:', response);
+                    
+                    // Show the green confirmation button for this specific form
+                    if (confirmationBtn) {
+                        confirmationBtn.style.display = 'block';  // Display the green button
+                    }
+                }, function(error) {
+                    console.log('Failed:', error);
+                });
+            });
+        });
+    </script>
+    
 </body>
 
 </html>
