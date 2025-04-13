@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="header-button">
-                        <a href="#" class="btn tj-btn-primary">Blog</a>
+                        <a href="#contact-section" class="btn tj-btn-primary">Hire Me</a>
                     </div>
 
                     <div class="menu-bar d-lg-none">
@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="header-button">
-                        <a href="#" class="btn tj-btn-primary">Blog</a>
+                        <a href="#contact-section" class="btn tj-btn-primary">Hire Me</a>
                     </div>
 
                     <div class="menu-bar d-lg-none">
@@ -1589,7 +1589,6 @@
         <section class="resume-section" id="resume-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
                         <div class="section-header wow fadeInUp" data-wow-delay=".3s">
                             <h2 class="section-title">My Experience</h2>
                         </div>
@@ -1602,6 +1601,14 @@
                                 <h3 class="resume-title">Senior Software Developer</h3>
                                 <div class="institute">
                                     <b>EClicalWorks, Gujarat</b>
+                                    <ul>
+                                        <li>Developed a dynamic table implementation using Angular and Spring Boot, enabling seamless viewing, editing, deletion, pagination and searching with logs and user access control.</li>
+                                        <li>Implemented a scalable solution allowing future table entries without additional screen development, reducing implementation team's time and boosting efficiency by 50%.</li>
+                                        <li>Ensured code quality with Groovy test classes, Jest test cases, Sonar checks, contract validation, and security vulnerability assessments.</li>
+                                        <li>Integrated FTPS/SFTP for secure file transfers, enhancing data security and compliance.</li>
+                                        <li>Optimized database connection pooling, reducing query failures and improving execution speed.</li>
+                                        <li>Enhanced stored procedures, reducing execution time by 40%, improving system performance.</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".5s">
@@ -1611,6 +1618,19 @@
                                 <h3 class="resume-title">Software Developer</h3>
                                 <div class="institute">
                                    <b> Einfochips - An Arrow Company, Gujarat</b>
+                                   <ul>
+                                    <li>Led development for top e-commerce brands, optimizing B2C features like promotions, cart, checkout, and payments, boosting transaction volume.</li>
+                                    <li>Designed secure APIs and batch jobs, improving operational efficiency in an Agile environment.</li>
+                                    <li>Integrated Kafka for event tracking, enhancing data visibility and insights.</li>
+                                    <li>Mitigated security vulnerabilities across 22+ microservices using Fortify on Demand.</li>
+                                    <li>Resolved critical production bugs in Spring Boot microservices, reducing issue resolution time by 35%.</li>
+                                    <li>Managed production environments, improving deployment stability by 25%.</li>
+                                    <li>Migrated users from ForgeRock to Azure, saving $2000/month while ensuring seamless login services.</li>
+                                    <li>Optimized business email templates, cutting email-related support tickets by 50%.</li>
+                                    <li>Executed MySQL data fixes, ensuring data integrity and reliability.</li>
+                                    <li>Mentored junior developers, increasing team productivity by 20%.</li>
+                                </ul>
+                          
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".6s">
@@ -1620,12 +1640,19 @@
                                 <h3 class="resume-title">Intern - Full Stack Developer</h3>
                                 <div class="institute">
                                     <b>Adbiz Directory, Gujarat</b>
+                                    <ul>
+                                        <li>
+                                            Worked on a web application's development, enhancements, and operation as a talented full-stack developer within a dedicated, product-based team.
+                                        </li>
+                                        <li>
+                                            Developed a full-stack web application using Laravel for advertising company-Adbiz Directory and learned the concepts of HTML, CSS, jQuery, MySQL, and PHP.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
                         <div class="section-header wow fadeInUp" data-wow-delay=".4s">
                             <h2 class="section-title">My Education</h2>
                         </div>
@@ -1645,7 +1672,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1988,10 +2014,11 @@
                                             <div class="form_group">
                                                 <select name="service" id="service" class="tj-nice-select">
                                                     <option value="" selected disabled>Choose Service</option>
-                                                    <option value="braning">Branding Design</option>
-                                                    <option value="web">Web Design</option>
-                                                    <option value="uxui">UI/UX Design</option>
-                                                    <option value="app">App Design</option>
+                                                    <option value="Web Design & Development">Web Design & Development</option>
+                                                    <option value="Support Work">Support Work</option>
+                                                    <option value="UI/UX or Brand Design">UI/UX or Brand Design</option>
+                                                    <option value="App Design">App Design</option>
+                                                    <option value="Others">Others</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -2003,6 +2030,11 @@
                                         <div class="col-12">
                                             <div class="form_btn">
                                                 <button type="submit" class="btn tj-btn-primary">Send Message</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="confirmation-btn form_btn" style="display: none; margin-top: 20px; ">
+                                                <button type="button" class="btn btn-success">Message Sent Successfully!</button>
                                             </div>
                                         </div>
                                     </div>
@@ -2073,9 +2105,6 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="copy-text">
-                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">ThemeJunction</a></p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -2103,36 +2132,38 @@
     <script>
         // Initialize EmailJS
         (function() {
-            emailjs.init('njMNdevQssS2rQY3E'); // Replace with your actual user ID from EmailJS
+          emailjs.init('njMNdevQssS2rQY3E'); // Your public key
         })();
-    
-        // Select all forms with the class 'contact-form'
-        const forms = document.querySelectorAll('.contact-form');
-    
-        // Loop through each form
-        forms.forEach(function(form) {
-            const confirmationBtn = form.querySelector('.confirmation-btn');  // Get the confirmation button specific to this form
-    
-            // Add submit event listener to each form
-            form.addEventListener('submit', function(event) {
-                event.preventDefault();  // Prevent default form submission
-    
-                // Send email using EmailJS
-                emailjs.sendForm('service_uklpljo', 'template_kfoo0as', form)
-                .then(function(response) {
-                    console.log('Success:', response);
-                    
-                    // Show the green confirmation button for this specific form
-                    if (confirmationBtn) {
-                        confirmationBtn.style.display = 'block';  // Display the green button
-                    }
-                }, function(error) {
-                    console.log('Failed:', error);
-                });
-            });
+      
+        // Generic function to handle form submission
+        function handleFormSubmission(form, serviceId, templateId) {
+          const confirmationBtn = form.querySelector('.confirmation-btn');
+      
+          form.addEventListener('submit', function(event) {
+            event.preventDefault();
+      
+            emailjs.sendForm(serviceId, templateId, form)
+              .then(function(response) {
+                if (confirmationBtn) {
+                  confirmationBtn.style.display = 'block';  // Show confirmation button
+                }
+              }, function(error) {
+                alert('Failed to send message. Try again!');
+              });
+          });
+        }
+      
+        // Handle all forms with class 'contact-form'
+        document.querySelectorAll('.contact-form').forEach(form => {
+          handleFormSubmission(form, 'service_uklpljo', 'template_kfoo0as');
         });
-    </script>
-    
+      
+        // Handle .tj-contact-form specifically if it exists
+        const tjForm = document.querySelector('.tj-contact-form form');
+        if (tjForm) {
+          handleFormSubmission(tjForm, 'service_uklpljo', 'template_h4f2nwi');
+        }
+      </script>
 </body>
 
 </html>
